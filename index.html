@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin API</title>
+</head>
+
+<body>
+    <h1>Jan-Marcus's BitCoin Calculator</h1>
+    <hr>
+    <h1>CONVERSION</h1>
+    <h3>Use this page to convert BitCoins to either U.S Dollars or Euros.</h3>
+    <form>
+        <label for="value-name">Value:</label>
+        <input type="number" min="0" max="999999" id="value-name" placeholder="Insert value here">
+        <br>
+        <label for="value-name">Currency:</label>
+        <select name="currencies" id="currency-name">
+            <option value="USD">U.S Dollars</option>
+            <option value="EUR">Euros</option>
+        </select>
+        <br>
+        <button id="btn-convert">Convert</button>
+    </form>
+
+    <div class="results"></div>
+
+    <footer id="footer">
+        <div id="copyright">Jan-Marcus Sivadi. All rights reserved.</div>
+        <a href="https://www.coindesk.com">Powered by CoinDesk</a>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
