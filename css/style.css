@@ -1,0 +1,13 @@
+:root {
+    --margin: 0.5rem;
+}
+
+body {
+    padding: 2rem;
+}
+
+.results {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

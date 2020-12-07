@@ -32,7 +32,7 @@ buttonConvert.addEventListener('click', (event) => {
             let rateFinal = rateFloat * rateMultiplier;
 
             html = `
-                <h2>Results</h3>
+                <h1>Results</h1>
                 <h3>Thank you! Here are the results:</h3>
                 <h4>
                     BitCoin's value: ${rateMultiplier}<br>
